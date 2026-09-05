@@ -8,4 +8,12 @@ public class ApiResponse {
         this.successful = successful;
         this.message = message;
     }
+
+    public Boolean getSuccessful() {
+        return successful;
+    }
+
+    public String getMessage() {
+        return message;
+    }
 }
